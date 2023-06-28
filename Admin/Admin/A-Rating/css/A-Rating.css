@@ -1,0 +1,410 @@
+
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #212529;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    color: #FF4B2B;
+    box-sizing: border-box;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #fff;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #555;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #fff;  /* creates padding around scroll thumb */
+  }
+
+/* end of global */
+
+/* sidebar */
+.sidebar
+{
+    overflow: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    width: 18%;
+   
+    -webkit-transition: width .4s ease-in;
+    -o-transition: width .4s ease-in;
+    transition: width .8s ease-in;
+}
+
+.sidebar .logo-icon 
+{
+    padding-top: 15px;
+    width: 60%;
+    -webkit-transition: width .4s ease-in, padding .4s ease-in;
+    -o-transition: width .4s ease-in, padding .4s ease-in;
+    transition: width .4s ease-in, padding .4s ease-in;
+}
+
+.sidebar .logo-text
+{
+    padding-left: 10px;
+    font-size: 1.313rem;
+    color: #fff;
+    line-height: 1.969rem;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.sidebar .list-icon , .sidebar .list-text
+{
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.594rem;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+
+    display: inline-block;
+}
+
+
+
+.sidebar ul
+{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+}
+
+.sidebar ul a
+{
+        padding-left: 0 !important;
+        -webkit-transition: padding .4s ease-in;
+        -o-transition: padding .4s ease-in;
+        transition: padding .4s ease-in;
+}
+
+
+/* sidebar hover */
+
+  
+
+
+/* end of sidebar hover */
+
+
+
+.sidebar ul a:hover .list-icon, .sidebar ul a:hover .list-text, .sidebar ul a:focus .list-icon, .sidebar ul a:focus .list-text
+{
+    color: #FF4B2B;
+}
+
+
+
+.sidebar .list-text
+{
+    padding-left: 2px;
+}
+.sidebar .here{
+    color: #FF4B2B;
+}
+
+.search button, .search input
+{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    background-color: #eee;
+    color: #212529;
+    border: none;
+}
+
+.search button
+{
+    text-align: center;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search input
+{
+    margin-left: 1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.profile
+{
+    width: fit-content;
+}
+
+.profile a .user-name
+{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #FF4B2B;
+    line-height: 15px;
+}
+
+.profile a small
+{
+    font-size: small;
+    color: #FF4B2B;
+}
+
+.profile .user-image
+{
+    width: 50px;
+}
+
+.profile .user-image img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-main
+{
+    border: 1px solid rgba(255,255,255);
+    padding: 1.25rem;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.profile-container i
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-size: 2.2rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.profile-main .profile-user-image
+{
+    width: 100px;
+}
+
+.user-details
+{
+    border: 1px solid rgba(255,255,255);
+    padding: 1.25rem;
+}
+
+
+
+
+
+
+/******************info of Missing & find People************************/
+
+
+  
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(192, 174, 174);
+    margin-top: 3px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #fa0909;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #51a155;
+    border-radius: 25%;
+  }
+  
+  /* Style the container/contact section */
+  .container-form {
+    width: 1000px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #181717;
+    padding: 10px;
+    
+  }
+ 
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+#manger
+{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgb(192, 174, 174);
+  margin-top: 3px;
+  margin-bottom: 10px;
+  resize: vertical;
+
+}
+.ll{
+   color: #eee;
+   background-color: #212529;
+
+}
+
+.form-select{
+    background-color: #212529;
+}
+.form-control{
+    background-color: #212529;
+    
+}
+.ll:read-write{
+    background-color: #212529;
+    color: #eee;
+
+}
+
+/* ////////////////////////JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ   */
+
+@media screen and (max-width: 991px) {
+
+    html
+    {
+        font-size: 14px;
+    }
+
+    .sidebar
+    {
+        overflow: auto;
+        width: 60px;
+        padding: 0 !important;
+        -webkit-transition: width .4s ease-in;
+        -o-transition: width .4s ease-in;
+        transition: width .4s ease-in;
+    }
+
+    .sidebar .logo-icon 
+    {
+        padding-top: 15px;
+        width: 60%;
+        -webkit-transition: width .4s ease-in, padding .4s ease-in;
+        -o-transition: width .4s ease-in, padding .4s ease-in;
+        transition: width .4s ease-in, padding .4s ease-in;
+    }
+
+    .sidebar .logo-text
+    {
+        display: none;
+    }
+
+
+
+
+    .sidebar ul
+    {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .sidebar ul a
+    {
+        padding-left: 0 !important;
+        -webkit-transition: padding .4s ease-in;
+        -o-transition: padding .4s ease-in;
+        transition: padding .4s ease-in;
+    }
+
+    .sidebar:hover
+    {
+        width: 260px;
+        padding: 1rem 1rem 0 1rem !important;
+    }
+
+    .sidebar:hover .logo-icon
+    {
+        width: 30%;
+    }
+
+    .sidebar:hover .logo-text
+    {
+        display: inline;
+    }
+
+    .sidebar:hover .list-text
+    {
+        display: inline;
+    }
+
+
+
+ 
+
+    .sidebar:hover ul
+    {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .sidebar:hover
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .search
+    {
+        order: 1;
+    }
+
+    .profile
+    {
+        order: 0;
+        margin: 0 auto 15px auto;
+    }
+}

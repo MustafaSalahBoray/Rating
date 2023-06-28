@@ -1,0 +1,260 @@
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Read task-Modern Academy</title>
+    <link rel="icon" href="../A-Dashboard/img/profile man.png" type="image/x-icon">
+
+    <!-- links -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../A-Dashboard/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../A-Dashboard/css/all.min.css">
+    <link rel="stylesheet" href="../A-Dashboard/css/A-Dashboard.css">
+
+</head>
+
+<body>
+
+
+    <div class="d-flex main">
+
+        <!-- sidebar -->
+
+        <aside class="px-3 pt-3 sidebar vh-100 flex-shrink-0">
+            <div class="d-flex flex-column">
+                <a href="../A-Dashboard/A-Dashboard.html"
+                    class="text-decoration-none d-flex justify-content-center align-items-center">
+                    <img src="../../Home/img/mam-logo-light-roboto.png" alt="moden-academy" class="logo-icon">
+
+                </a>
+                <ul class="p-0  list-unstyled mt-3 d-inline flex-column">
+                  
+
+                    <li>
+                        <a  href="../A-Dashboard/A-Dashboard.html" class="d-inline align-items-center  py-3  text-decoration-none " type="button"
+                            >
+                            <i class="fa-solid fa-house-chimney list-icon  fa-fw fw-bold here"></i>
+                            <span class="list-text fw-bold here ">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../A-Send Task/A-Send Task.html" class="d-inline align-items-center  py-3  text-decoration-none" type="button"
+                            >
+                            <i class="fa-solid fa-book-open-reader list-icon fa-fw"></i>
+                            <span class="list-text">Tasks</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a  href="../A-profile/A-profile.html" class="d-inline align-items-center  py-3  text-decoration-none" type="button"
+                            >
+                            <i class="fa-solid fa-user list-icon fa-fw"></i>
+                            <span class="list-text">profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../A-Rating/A-Rating.html" class="d-inline align-items-center  py-3  text-decoration-none" type="button">
+                          <i class="fa-regular fa-star fa-solid list-icon fa-fw  "></i>
+                          <span class="list-text ">Rating</span>
+                        </a>
+                      </li>
+                  
+                
+                </ul>
+            </div>
+        </aside>
+
+        <!-- End of sidebar -->
+
+        <section class="container-fluid ps-4">
+            <div class="row">
+
+                <!-- navbar -->
+
+                <nav class="col-lg-12 py-4 px-3">
+                    <div class="row align-items-center justify-content-end">
+                        <div class="col-lg-5 col-sm-12 search d-flex order-lg-0 order-sm-1">
+                        </div>
+
+                        <div id="user-box" class="col-lg-5 col-sm-12 m-sm-auto m-lg-0 mt-lg-0 mb-sm-4 profile d-flex order-lg-0 order-sm-0">
+                            <div class="user-info d-flex align-items-center pe-2">
+                                <a href="#" class="text-decoration-none d-flex flex-column">
+                                    <span id="userName" class="user-name">Ahmed Essam</span>
+                                    <small>Admin Profile</small>
+                                </a>
+
+                            </div>
+                            <div class="user-image">
+                                <a href="#">
+                                    <img id="user-photo" src="../A-Dashboard/img/profile man.png" alt="user photo">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- End of navbar -->
+
+            <!-- profile section -->
+
+            <section class="profile-main mt-3">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="profile d-flex flex-column align-items-center mb-2">
+                        <div class="card text-center">
+                            <div class="card-header">
+                              <ul class="nav nav-pills card-header-pills">
+                                <li class="nav-item align-items-center">
+                                  <a class="nav-link active " href="../A-Dashboard/A-Dashboard.html ">Read Task</a>
+                                </li>
+                              
+                            </div>
+                            <div class="card-body">
+                                <dl class="row">
+                                    <dt class="col-sm-3">Subject Name :</dt>
+                                    <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+                                  
+                                    <dt class="col-sm-3">Description:</dt>
+                                    <dd class="col-sm-9">
+                                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores reiciendis illum, quibusdam accusamus dolorem sed cupiditate recusandae amet ipsa iusto pariatur consectetur dolor aut quasi aliquam perferendis facilis voluptates accusantium.</p>
+                                      <p>And some more placeholder definition text.</p>
+                                    </dd>
+                                  
+                                    <dt class="col-sm-3">Dead  line:	</dt>
+                                    <dd class="col-sm-9">03/04/2023</dd>
+                                  
+                                    <dt class="col-sm-3 text-truncate">Time remaining:</dt>
+                                    <dd  class="col-sm-9 cal-date"><p id="cal-date"></p></dd>
+                                  
+                                    <dt class="col-sm-3">Files:</dt>
+                                   <dd class="col-sm-9"><div class="activityinstance active"><a class="aalink" onclick="" href="https://ss.synceg.net/mod/resource/view.php?id=13051"><img src="https://ss.synceg.net/theme/image.php/klass/core/1669727726/f/pdf-24" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true"><span class="instancename">MT RESULTS<span class="accesshide "> File</span></span></a></div><div data-region="activity-information" data-activityname="MT RESULTS" class="activity-information">
+       
+                                   </div></div></dd>
+                                  </dl>
+                              <div class="p-2">
+                                 <a href="../A-Send Task/A-Send Task.html" class="btn btn-go ">Go somewhere</a>
+                            </div>
+                          </div>
+                            <!-- <div class="row">
+                                <div class="col-sm-4 mb-3 mb-sm-0">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Special title treatment</h5>
+                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                      <a href="#" class="btn btn-go">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4 mb-3 mb-sm-0">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-go">Go somewhere</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4 p-1 ">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-go" type="button">Go somewhere</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                <div class="col-sm-4">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Special title treatment</h5>
+                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                      <a href="#" class="btn btn-go" type="button">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div> -->
+
+            <!-- End of profile section -->
+
+        </section>
+    </div>
+
+
+    <!-- profile card -->
+
+    <div class="profile-container d-none">
+        <i id="card-close" class="fa-solid fa-xmark"></i>
+        <div class="profile-card">
+            <div class="card" style="width: 18rem;">
+                <img id="user-card-image" src="../A-Dashboard/img/profile man.png" class="card-img-top w-100"
+                    alt="user-photo">
+                <div class="card-body">
+                    <h5 id="cardName" class="card-title fw-bolder">Ahmed Essam</h5>
+                    <small id="cardEmail">example@gmail.com</small>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item "><a href="../A-profile/A-profile.html" class="fw-bold text-decoration-none text-black">Profile</a>
+                    </li>
+                    <li class="list-group-item "><a id="change-password-list" href="#"
+                            class="fw-bold text-decoration-none text-black">Change passward</a>
+                    </li>
+                    <li class="list-group-item "><a id="cardSignOut" href="../../Register/index.html"
+                            class="fw-bold text-decoration-none text-black">Signout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of profile card -->
+
+    <!-- change passward card -->
+
+
+    <!-- end of change passward card -->
+    <Script>
+        // function log() {  
+        //   let date_1 = new Date("03/03/2023");
+        //   let date_2 = new Date();
+        //   const days = (date_1, date_2) =>{
+        //       let difference = date_1.getTime() - date_2.getTime();
+        //       let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
+        //       return string(TotalDays) ;
+        //   }
+        //  console.log(String(days(date_1, date_2) +" days "));
+           
+  
+        // }
+        // document.getElementById("cal-date").innerHTML = String(log());  
+                                  // MM /dd/yy
+   			let date_1 = new Date(  "04/03/2023");
+          let date_2 = new Date();
+          const days = (date_1, date_2) =>{
+              let difference = date_1.getTime() - date_2.getTime();
+              let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
+              return TotalDays;
+  
+            }  
+            if (days(date_1, date_2) > 0) {
+                document.getElementById("cal-date").innerHTML =  String(days(date_1, date_2) +" days "); 
+            } else {
+                document.getElementById("cal-date").style.color ="red"
+                document.getElementById("cal-date").style.fontFamily ="Bold"
+
+                document.getElementById("cal-date").innerHTML =  String(days(date_1, date_2) +" days "); 
+            }
+          
+        </Script>
+    <script src="../A-Dashboard/js/jquery-3.6.0.slim.min.js"></script>
+    <script src="../A-Dashboard/js/bootstrap.bundle.min.js"></script>
+    <script src="../A-Dashboard/js/navbar.js"></script>
+    <script src="../A-Dashboard/js/profile_user_name.js"></script>
+    <script src="../A-Dashboard/js/change-password.js"></script>
+    <script src="../A-Dashboard/js/stuProfileMat.js"></script>
+    <script src="../A-Dashboard/js/SignOut.js"></script>
+</body>
+
+</html>
